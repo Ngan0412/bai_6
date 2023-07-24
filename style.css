@@ -1,0 +1,128 @@
+<style>
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin-bottom: 0;
+}
+.header{
+    width: auto;
+    height: 50px;
+    background-color: #92dfc8;
+    padding: 30px;
+    font-size: 30px0;
+    text-align: center;
+    position: relative;
+}
+.element{
+    margin-top: 10px;
+}
+.content{
+    float: left;
+    width: 70%;
+    height: 500px;
+    background-color:#caeff2; 
+    text-align: center;
+}
+.aside{
+    float: right;
+    background-color: #F2D8CA;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+}
+.Box{
+    background-color: #F2F1CA;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    height: 100px;
+    text-align: center;
+    width: calc(25% - 10px);
+}
+
+.footer{
+    background-color: #eecbf3;
+    height: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
+.clear_both{
+    clear: both;
+}
+
+/* responsive */
+@media  and (max-width: 780) {
+    .content{
+        float: left;
+        width: 100%;
+        height: 300px;
+        background-color:#caeff2; 
+        text-align: center;
+    }
+    .aside{
+        float: right;
+        background-color: #F2D8CA;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .Box{
+        background-color: #F2F1CA;
+        margin-top: 10px;
+        float: left;
+        margin-right: 10px;
+        height: 100px;
+        text-align: center;
+        width: calc(25% - 10px);
+    }
+    @media  and (max-width: 780) {
+    .content{
+        float: left;
+        width: 100%;
+        height: 300px;
+        background-color:#caeff2; 
+        text-align: center;
+    }
+    .aside{
+        float: right;
+        background-color: #F2D8CA;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .Box{
+        background-color: #F2F1CA;
+        margin-top: 10px;
+        float: left;
+        margin-right: 10px;
+        height: 100px;
+        text-align: center;
+        width: calc(25% - 10px);
+    }
+
+
+}
+@media  and (max-width: 768) {
+    .content{
+        width: 100%;
+    }
+    .aside{
+        width: 100%;
+    }
+    .Box:nth-child(2){
+        margin-right: 0;
+    }
+    .Box{
+        width: calc(50% - 10px/2);
+    }
+}
+@media  and (max-width: 480) {
+    .Box{
+        margin-right:0;
+        width: 100%;
+    }
+}
+/* end responsive */
+
+</style>
